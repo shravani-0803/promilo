@@ -1,0 +1,103 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+}
+p{
+    position: absolute;
+    margin-top: 10px;
+    padding: 15px;
+    top: 0px;
+    width: 20%;
+    height: max-content;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+.text{
+    font-size:18px;
+    font-weight: bold;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+
+}
+.icons{
+    color: goldenrod;
+    text-align: center;
+}
+.para{
+  font-size: 10px;
+  color: rgb(125, 127, 130);
+}
+.wallet{
+    font-size: 20px;
+    margin-top: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    padding: 20px;
+    
+}
+.icon-wallet{
+    position: absolute;
+    right: 20px;
+    color: rgb(103, 5, 103);
+}
+.Number{
+   font-size: 30px;
+   font-weight: bold; 
+   padding-top: 20px;
+}
+.current{
+    font-size: 10px;
+    color: rgb(149, 151, 152);
+    padding-top: 5px;
+}
+.admin{
+    font-size: 10px;
+    color: black;
+    padding-top: 5px;
+}
+.admin u{
+    color: rgb(142, 4, 142);
+}
+.pending{
+    position: relative;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    height: 373px;
+    font-size: 25px;
+    font-weight: bold;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.scroll{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(172, 169, 169);
+    border-radius: 5px;
+    margin: 15px;
+    padding: 15px;
+    width: 230px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    z-index:'1000';
+}
+.action{
+    font-size: 16px;
+}
+.digital{
+    font-size: 10px;
+    padding-top: 10px;
+}
+.box .btn{
+    position: absolute;
+    margin-bottom: 30px;
+    top:5px;
+    border: none;
+    padding: 3px;
+    right: 3px;
+}

@@ -1,0 +1,12 @@
+.main_footer{
+    display: flex;
+    gap: 990px;
+    margin-top: 2px;
+    padding:0 50px;
+    color: gray;
+}
+.footer_icons{
+    display:flex;
+    gap:20px;
+    font-size:30px;
+}

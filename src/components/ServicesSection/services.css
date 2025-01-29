@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    position: absolute;
+    top:24px;
+    left: 0;
+    margin-left: 320px;
+    padding: 15px;
+    width: 78%;
+    height: max-content;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+.frequent{
+    font-size: 20px;
+    font-weight: bold;
+}
+.position-container{
+    position: relative;
+    margin: 15px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px solid rgb(130, 10, 130);
+}
+.first-section{
+    font-size: 18px;
+    font-weight: bold;
+}
+.second-section{
+    font-size: 16px;
+    color: rgb(103, 100, 100);
+}
+.third-section{
+    font-size: 16px;
+    padding-top: 10px;
+    color: rgb(84, 3, 84);  
+}
+.section-icon{
+    padding-top: 5px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.digital{
+    color: rgb(79, 76, 76);
+}

@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h2{
+    position: absolute;
+    top:11px;
+    left: 0;
+    margin-left: 320px;
+    margin-top: 540px;
+    width: 78%;
+    height: max-content;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.sign{
+    display: "grid";
+    align-items: "center";
+    gap: "5px" 
+}
+.circle:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    h4 {
+      font-size: 14px;
+    }
+  
+    .legend-item span {
+      font-size: 12px;
+    }
+  
+    svg {
+      height: 80px;
+    }
+  
+    .ChartBox {
+      width: 100%;  
+    }
+  }
+  
+    
